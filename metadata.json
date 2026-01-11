@@ -1,0 +1,5 @@
+{
+  "name": "ChemPro v40 – GV: VAN HA",
+  "description": "An interactive molecular drawing application for Vietnamese chemistry education, featuring atom placement, bond creation, snapping, and valence checking.",
+  "requestFramePermissions": []
+}

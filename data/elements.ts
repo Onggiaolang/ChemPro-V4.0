@@ -1,0 +1,31 @@
+
+import { ElementData, ElementCategory } from '../types';
+
+export const elements: ElementData[] = [
+  { number: 1, symbol: 'H', name: 'Hydrogen', atomic_mass: 1.008, category: ElementCategory.DIATOMIC_NONMETAL, xpos: 1, ypos: 1, summary: 'Hydrogen is the chemical element with the symbol H and atomic number 1.' },
+  { number: 2, symbol: 'He', name: 'Helium', atomic_mass: 4.0026, category: ElementCategory.NOBLE_GAS, xpos: 18, ypos: 1, summary: 'Helium is a chemical element with symbol He and atomic number 2.' },
+  { number: 3, symbol: 'Li', name: 'Lithium', atomic_mass: 6.94, category: ElementCategory.ALKALI_METAL, xpos: 1, ypos: 2, summary: 'Lithium is a chemical element with symbol Li and atomic number 3.' },
+  { number: 4, symbol: 'Be', name: 'Beryllium', atomic_mass: 9.0122, category: ElementCategory.ALKALINE_EARTH_METAL, xpos: 2, ypos: 2, summary: 'Beryllium is a chemical element with symbol Be and atomic number 4.' },
+  { number: 5, symbol: 'B', name: 'Boron', atomic_mass: 10.81, category: ElementCategory.METALLOID, xpos: 13, ypos: 2, summary: 'Boron is a metalloid element.' },
+  { number: 6, symbol: 'C', name: 'Carbon', atomic_mass: 12.011, category: ElementCategory.POLYATOMIC_NONMETAL, xpos: 14, ypos: 2, summary: 'Carbon is the basis for all known life.' },
+  { number: 7, symbol: 'N', name: 'Nitrogen', atomic_mass: 14.007, category: ElementCategory.DIATOMIC_NONMETAL, xpos: 15, ypos: 2, summary: 'Nitrogen is a clear, odorless gas.' },
+  { number: 8, symbol: 'O', name: 'Oxygen', atomic_mass: 15.999, category: ElementCategory.DIATOMIC_NONMETAL, xpos: 16, ypos: 2, summary: 'Oxygen is essential for respiration.' },
+  { number: 9, symbol: 'F', name: 'Fluorine', atomic_mass: 18.998, category: ElementCategory.DIATOMIC_NONMETAL, xpos: 17, ypos: 2, summary: 'Fluorine is a highly reactive gas.' },
+  { number: 10, symbol: 'Ne', name: 'Neon', atomic_mass: 20.180, category: ElementCategory.NOBLE_GAS, xpos: 18, ypos: 2, summary: 'Neon is used in bright signs.' },
+  { number: 11, symbol: 'Na', name: 'Sodium', atomic_mass: 22.990, category: ElementCategory.ALKALI_METAL, xpos: 1, ypos: 3, summary: 'Sodium is a soft, silvery-white, highly reactive metal.' },
+  { number: 12, symbol: 'Mg', name: 'Magnesium', atomic_mass: 24.305, category: ElementCategory.ALKALINE_EARTH_METAL, xpos: 2, ypos: 3, summary: 'Magnesium is an alkaline earth metal.' },
+  { number: 13, symbol: 'Al', name: 'Aluminum', atomic_mass: 26.982, category: ElementCategory.POST_TRANSITION_METAL, xpos: 13, ypos: 3, summary: 'Aluminum is a lightweight, silvery metal.' },
+  { number: 14, symbol: 'Si', name: 'Silicon', atomic_mass: 28.085, category: ElementCategory.METALLOID, xpos: 14, ypos: 3, summary: 'Silicon is a semiconductor.' },
+  { number: 15, symbol: 'P', name: 'Phosphorus', atomic_mass: 30.974, category: ElementCategory.POLYATOMIC_NONMETAL, xpos: 15, ypos: 3, summary: 'Phosphorus is essential for DNA and RNA.' },
+  { number: 16, symbol: 'S', name: 'Sulfur', atomic_mass: 32.06, category: ElementCategory.POLYATOMIC_NONMETAL, xpos: 16, ypos: 3, summary: 'Sulfur is a yellow nonmetal.' },
+  { number: 17, symbol: 'Cl', name: 'Chlorine', atomic_mass: 35.45, category: ElementCategory.DIATOMIC_NONMETAL, xpos: 17, ypos: 3, summary: 'Chlorine is a toxic green gas.' },
+  { number: 18, symbol: 'Ar', name: 'Argon', atomic_mass: 39.948, category: ElementCategory.NOBLE_GAS, xpos: 18, ypos: 3, summary: 'Argon is an inert gas.' },
+  { number: 19, symbol: 'K', name: 'Potassium', atomic_mass: 39.098, category: ElementCategory.ALKALI_METAL, xpos: 1, ypos: 4, summary: 'Potassium is a soft alkali metal.' },
+  { number: 20, symbol: 'Ca', name: 'Calcium', atomic_mass: 40.078, category: ElementCategory.ALKALINE_EARTH_METAL, xpos: 2, ypos: 4, summary: 'Calcium is vital for bone health.' },
+  { number: 26, symbol: 'Fe', name: 'Iron', atomic_mass: 55.845, category: ElementCategory.TRANSITION_METAL, xpos: 8, ypos: 4, summary: 'Iron is a metal in the first transition series.' },
+  { number: 29, symbol: 'Cu', name: 'Copper', atomic_mass: 63.546, category: ElementCategory.TRANSITION_METAL, xpos: 11, ypos: 4, summary: 'Copper is a soft, malleable, and ductile metal.' },
+  { number: 47, symbol: 'Ag', name: 'Silver', atomic_mass: 107.87, category: ElementCategory.TRANSITION_METAL, xpos: 11, ypos: 5, summary: 'Silver is a precious transition metal.' },
+  { number: 79, symbol: 'Au', name: 'Gold', atomic_mass: 196.97, category: ElementCategory.TRANSITION_METAL, xpos: 11, ypos: 6, summary: 'Gold is a highly valuable transition metal.' },
+  { number: 80, symbol: 'Hg', name: 'Mercury', atomic_mass: 200.59, category: ElementCategory.TRANSITION_METAL, xpos: 12, ypos: 6, summary: 'Mercury is a liquid metal at room temperature.' },
+  { number: 92, symbol: 'U', name: 'Uranium', atomic_mass: 238.03, category: ElementCategory.ACTINIDE, xpos: 6, ypos: 9, summary: 'Uranium is a radioactive actinide.' },
+];
